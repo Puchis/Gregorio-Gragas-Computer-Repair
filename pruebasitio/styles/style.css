@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+* {
+    margin:0;
+    padding:0;
+    font:12pt Arial;
+}
+
+body {
+  background-color:#34495e;
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:70%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(22, 160, 133),
+   2px 2px 0 rgb(22, 160, 133),
+   3px 3px 0 rgb(22, 160, 133),
+   4px 4px 0 rgb(22, 160, 133),
+   5px 5px 0 rgb(22, 160, 133),
+   6px 6px 0 rgb(22, 160, 133),
+   7px 7px 0 rgb(22, 160, 133)
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 188, 156);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(26, 188, 156);
+  color:white;
+  border:none;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  background-color: White;
+  color: Black;
+  border: 2px Solid #10e62d;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button1:hover {
+  background-color: #10e62d;
+  color: White;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #d90d0d;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button2:hover {
+  background-color: #d90d0d;
+  color: White;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #17e8d0;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button3:hover {
+  background-color: #17e8d0;
+  color: White;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #0a12f5;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button4:hover {
+  background-color: #0a12f5;
+  color: White;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #d30be6;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button5:hover {
+  background-color: #d30be6;
+  color: White;
+}
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid #5f0eeb;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button6:hover {
+  background-color: #5f0eeb;
+  color: White;
+}
+
+.button7 {
+  background-color: white;
+  color: black;
+  border: 2px solid #c6cc0a;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button7:hover {
+  background-color: #c6cc0a;
+  color: White;
+}
+
+.button8 {
+  background-color: white;
+  color: black;
+  border: 2px solid #db640f;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.button8:hover {
+  background-color: #db640f;
+  color: White;
+}
+
+.button9 {
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+  padding: 20px 40px;
+  border-radius: 4px;
+  opacity: 0.6;
+  cursor: not-allowed;
+  width: 400px;
+}
+
+.botonesinicio .boton {
+  background-color: #680ead;
+  border: 3px solid #3c0666;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  width: 25%;
+  transition-duration: 0.4s;
+}
+
+.botonesinicio .boton:not(:last-child) {
+  border-right: none;
+}
+
+.botonesinicio .boton:hover {
+  background-color: #3c0666;
