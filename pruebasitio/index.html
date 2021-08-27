@@ -11,15 +11,15 @@
 <br>
 
       <div class="botonesinicio">
-        <button class="boton">Inicio</button>
+        <button class="boton" onclick='IrA("index.html");'>Inicio</button>
         <button class="boton">Contacto</button>
         <button class="boton">Acerca de</button>
         <button class="boton">Merchandising</button>
       </div>
 
     <div class="volibear">
-    <button class="button"><a href="Pantallazos.html">Pantallazo de Windows</a></button>
-    <button class="button">Se apaga sola</button>
+    <button class="button" onclick='IrA("Pantallazos.html");'>Pantallazo de Windows</button>
+    <button class="button" onclick='IrA("ApagaSola.html");'>Se apaga sola</button>
     <button class="button">A mi ni se le ocurra apretarme</button>
   </div>
       <div class="orn">
@@ -33,4 +33,13 @@
         <button class="button">No puede conmigo arzola</button>
         <div>
   </body>
-</html
+</html>
+
+
+<script>
+document.getElementById("demo").onclick = function() {IrA()};
+function IrA(direccion){
+location.href= direccion;
+}
+
+</script>
