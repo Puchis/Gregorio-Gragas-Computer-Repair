@@ -33,7 +33,7 @@ body{
   width: 500px;
 }
 
-.button:hover {
+.button1:hover, .button2:hover, .button3:hover {
   background-color: #00a2ed;
   color: White;
 }
