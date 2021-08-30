@@ -65,11 +65,11 @@ body{
   color: white;
   padding: 42px 32px;
   text-align: center;
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
   float: right;
-  width: 19%;
-  height: 189px;
+  width: 20.665%;
+  height: 143px;
   transition-duration: 0.4s;
 }
 
@@ -85,4 +85,38 @@ body{
 
 .botonesinicio .boton:hover {
   background-color: #1781b3;
+}
+
+.body1{
+  padding-left: 170px;
+  padding-right: 170px;
+  width: 100%;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #000;
+  display: table;
+}
+
+.inbody1{
+  padding-right: 22px;
+  width: 40.3%;
+  float: left;
+}
+
+.inbody2{
+  width: 40.3%;
+  float: left;
+}
+
+.xd{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+p{
+  margin-top: 10px;
+  line-height: 20px;
+
 }
