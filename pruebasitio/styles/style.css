@@ -1,13 +1,12 @@
 body{
   margin: 0;
   justify-content: flex-end;
+  margin-bottom: 20px;
 }
 
 
 .b1, .b2, .b3{
-  width: 1230px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .title {
@@ -17,7 +16,7 @@ body{
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.button {
+.button1, .button2, .button3 {
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color:white;
   border: 2px Solid #00a2ed;
@@ -31,7 +30,7 @@ body{
   transition-duration: 0.4s;
   padding: 20px 40px;
   border-radius: 4px;
-  width: 400px;
+  width: 500px;
 }
 
 .button:hover {
@@ -47,13 +46,13 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
   padding: 20px 40px;
   border-radius: 4px;
-  width: 400px;
+  width: 500px;
   opacity: 0.6;
   cursor: not-allowed;
 }
@@ -62,8 +61,7 @@ body{
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: #00a2ed;
   border: 3px solid #1781b3;
-  color: white;
-  padding: 42px 32px;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 32px;
   cursor: pointer;
@@ -119,4 +117,12 @@ p{
   margin-top: 10px;
   line-height: 20px;
 
+}
+
+.button1{
+  margin-left: 170px;
+}
+
+.button3{
+  margin-right: 170px;
 }
