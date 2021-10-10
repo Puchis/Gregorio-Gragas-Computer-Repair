@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTFS_FILE_SYSTEM</title>
+</head>
+<body>
+    <h1>NTFS_FILE_SYSTEM</h1>
+    <p>
+        Este error es causado por una falla en el disco duro en el que se encuentra instalado el sistema operativo.
+    </p>
+    <h3>Comprobacion de errores en el disco</h3>
+    <ol>
+        <li>Inicio > Escriba cmd > Ejecute Command prompt.</li>
+        <li>Ingrese el comando <b>chkdsk C: /f</b>. (Reemplace C con la letra de la partición de su disco duro donde instaló el sistema operativo) <br><img src="images/ntfs1.jpg"></li>
+        <li>Ingrese el comando <b>chkdsk C: /r</b> Para corregir y reparar los errores y problemas físicos.<br><img src="images/ntfs2.jpg"></li>
+    </ol>
+    <p>Otra solucion puede ser limpiar el arranque del ordenador.</p>
+    <h3>Limpiar el arranque del ordenador</h3>
+    <ol>
+        <li>Vaya a Inicio > Ingrese msconfig > Entre a Configuración del sistema.</li>
+        <li>Vaya a la pestaña General > seleccione Selective startup > Deseleccioné Load startup item.<br><img src="images/ntfs3.png"></li>
+        <li>Vaya a la pestaña Servicios > seleccione Ocultar todos los servicios de Microsoft > haga clic en Desactivar todos.<br><img src="images/ntfs4.png"></li>
+        <li>Haga clic en Aplicar > haga clic en Aceptar > Reiniciar el equipo.</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pantallazos</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+
+<div class="botonesinicio">
+      <img class="logo" src="images/logo.png" height="106px" width="18%px" alt="logo">
+  <button class="boton" onclick='IrA("https://hardzone.es/tutoriales/reparacion/ruidos-pc-solucion/");'>Merchandising</button>
+  <button class="boton">Acerca de</button>
+  <button class="boton">Contacto</button>
+  <button class="boton" onclick='IrA("index.html");'>Inicio</button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="body1">
+      <div class="inbody1">
+        <img src="images/pantallazo2.jpg" alt="Pantallazo de Windows" height="100%" width="100%">
+        <p class="xd"><b></b>¿Que es un pantallazo de windows?</p>
+        <p>Cuando Windows falla se encarga de dejarlo claro, y tiene muchas formas de avisar: mensajes de error, reinicios, bloqueos... Pero cuando la Pantalla Azul de la Muerte aparece... ¡cuidado! Sabes que algo serio, muy serio, le está pasando a tu PC. No es un simple mensaje de error. Es casi una nota de suicidio...</p>
+      </div>
+      <div class="inbody2">
+        <img src="images/pantallazo.jpg" alt="Pantallazo de Windows" height="100%" width="100%">
+        <p class="xd">Localizar Error</p>
+        <p>Para solucionar un problema de esta clase, vamos a necesitar que encuentres el codigo que aparece abajo a la izquierda como se muestra en la imagen, luego pulse el boton de su problema para llegar a la solución</p>
+      </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div class="b1">
+      <button class="button1" onclick='IrA("Data bus error.html");'>DATA_BUS_ERROR</button>
+      <button class="button2" onclick='IrA("ntfs file.html");'>NTFS_FILE_SYSTEM</button>
+      <button class="button3" onclick='IrA("irql not.html");'>IRQL_NOT_LESS_OR_EQUAL</button>
+    </div>
+    <div class="b2">
+      <button class="button1" onclick='IrA("innac.html");'>INNACCESSIBLE_BOOT_DEVICE</button>
+      <button class="button2" onclick='IrA("unable.html");'>UNABLE_TO_LOAD_DEVICE_DRIVER</button>
+      <button class="button3" onclick='IrA("unex.html");'>UNEXPECTED_KERNEL_MODE_TRAP</button>
+    </div>
+    <div class="b3">
+      <button class="button1">KMODE_EXCEPTION_NOT_HANDLED</button>
+      <button class="button2">BAD_POOL_CALLER</button>
+      <button class="button3">FAT_FILE_SYSTEM</button>
+    </div>
+
+  </body>
+</html>
+
+
+<script>
+document.getElementById("demo").onclick = function() {IrA()};
+function IrA(direccion){
+location.href= direccion;
+}
+
+</script>
