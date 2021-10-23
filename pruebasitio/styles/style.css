@@ -5,7 +5,7 @@ body{
 }
 
 #first{
-  margin-right: 60%;
+  margin-right: 53%;
 }
 
 #especial{
@@ -133,7 +133,51 @@ body{
   font-weight: 600;
 }
 
-p{
-  margin-top: 10px;
-  line-height: 20px;
+h1, h2, h3, p, li{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+h1, h2, h3{
+text-align: center;
+}
+
+.text{
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: blue;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+li{
+  text-align: left;
+}
+
+.sobre{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  z-index: 1;
+  display: block;
+  background: #f4f2f2;
+  padding: 10px 30px 20px 30px;
+  max-width: 360px;
+  border-radius: 8px;
+  position: absolute;
+  top: 35%;
+  margin-left: 35%
+}
+
+textarea {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  transition: width 0.4s ease-in-out;
+}
+
