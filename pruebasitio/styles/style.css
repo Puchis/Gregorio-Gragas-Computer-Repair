@@ -5,7 +5,7 @@ body{
 }
 
 #first{
-  margin-right: 53%;
+  margin-right: 60%;
 }
 
 #especial{
@@ -36,6 +36,8 @@ body{
 .logo{
   padding: 10px 6px 10px 10px;
   margin-left: 6.5%;
+  height: 30px;
+  width: 6.3%;
 }
 
 .izquierda{
@@ -51,6 +53,13 @@ body{
   max-height: 1080px;
 }
 
+.amonger{
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .b{
 
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -59,7 +68,7 @@ body{
   display: block;
   background: #f4f2f2;
   padding: 50px 30px;
-  max-width: 360px;
+  max-width: 300px;
   border-radius: 8px;
 }
 
@@ -72,6 +81,12 @@ body{
   margin-left: 65%;
   top: calc(260%);
 }
+
+#i3{
+  margin-left: 65%;
+  top: calc(120%);
+}
+
 .b1, .b2, .b3{
   width: 100%;
 }
@@ -137,8 +152,15 @@ h1, h2, h3, p, li{
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h1, h2, h3{
-text-align: center;
+
+h2{
+  padding: 38px 0 2px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
 }
 
 .text{
@@ -181,3 +203,15 @@ textarea {
   transition: width 0.4s ease-in-out;
 }
 
+@media (max-width: 1366px) {
+
+  #first{
+    margin-right: 53%;
+  }
+
+  .logo{
+    height: 27px; 
+    width: 6.3%;
+  }
+
+}
