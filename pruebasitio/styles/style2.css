@@ -10,7 +10,7 @@ background-color: white;
 }
 
 #first{
-  margin-right: 60%;
+  margin-right: 66%;
 }
 
 #especial{
@@ -18,8 +18,12 @@ background-color: white;
   position: absolute;
 }
 
+.top{
+background-color: #000000;
+}
+
 .a{
-  color: #000000;
+  color: #ffffff;
   margin-right: 2%;
   padding: 16px 6px 16px 10px;
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -35,12 +39,12 @@ background-color: white;
 
 .barra{
   padding: 10px 6px 10px 10px;
-  margin-left: 1.8%;
+  margin-left: 0.5%;
 }
 
 .logo{
   padding: 10px 6px 10px 10px;
-  margin-left: 6.5%;
+  margin-left: 2.5%;
   height: 30px;
   width: 6.3%;
 }
