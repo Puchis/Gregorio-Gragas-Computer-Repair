@@ -2,7 +2,7 @@ body{
   margin: 0;
   justify-content: flex-end;
   margin-bottom: 20px;
-  background-color: #00a2ed;
+  background-image: url(cyborg.jpg);
 }
 
 .top{
@@ -16,6 +16,14 @@ background-color: white;
 #especial{
   top: 50%;
   position: absolute;
+}
+
+.dentro2{
+  position: absolute;
+  width: 13%;
+  height: 11.5%;
+  top: calc(7%);
+  left: calc(43.3%);
 }
 
 .top{
@@ -154,7 +162,7 @@ text-align: center;
 }
 
 .text{
-  padding-top: 1%;
+  padding-top: 3%;
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 2%;
@@ -162,7 +170,13 @@ text-align: center;
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: -18%;
 }
+
+.encabezado{
+  height: 45%;
+  width: 100%;
+  }
 
 li{
   text-align: left;
