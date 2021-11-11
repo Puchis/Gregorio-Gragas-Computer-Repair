@@ -27,7 +27,8 @@ background-color: white;
 }
 
 .top{
-background-color: #000000;
+  background-color: #111111;
+  border-bottom: 4px solid #111111;
 }
 
 .a{
@@ -38,11 +39,14 @@ background-color: #000000;
   float: right;
   top: 0;
   font-size: 15px;
-  text-decoration:none
+  text-decoration:none;
+  text-align: center;
+  border-bottom: 4px solid #111111;
+  transition-duration: 0.15s;
 }
 
 .a:hover{
-  text-decoration: underline;
+  border-color: #0bc4e2;
 }
 
 .barra{
